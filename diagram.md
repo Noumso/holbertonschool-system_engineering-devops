@@ -1,4 +1,3 @@
-```mermaid
 graph TD
     A[User's Browser] --> B[DNS Request: www.foobar.com]
     B --> C[DNS resolves to 8.8.8.8 (A record)]
@@ -10,13 +9,13 @@ graph TD
     F --> I[Backend Code Execution]
     G --> J[Database Query/Response]
 
-    %% Labels for explaining roles
-    E:::webServer
-    F:::appServer
-    G:::dbServer
-    H:::response
-    I:::backendCode
-    J:::databaseQuery
+    %% Color Definitions
+    class E webServer;
+    class F appServer;
+    class G dbServer;
+    class H response;
+    class I backendCode;
+    class J databaseQuery;
 
     classDef webServer fill:#4CAF50,stroke:#333,stroke-width:2px;
     classDef appServer fill:#FFEB3B,stroke:#333,stroke-width:2px;
