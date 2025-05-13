@@ -9,7 +9,7 @@ This diagram represents a simple LAMP-style web infrastructure hosted on a singl
 - All components run on a single machine
 
 ## Link to diagram
-[Insert your Imgur or image host link here]
+![simple_web_stack](./0-simple_web_stack.png)
 
 ## Key concepts
 - Server: A computer that provides services to users
