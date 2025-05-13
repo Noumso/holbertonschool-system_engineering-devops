@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[User's Browser] --> B[DNS Request: www.foobar.com]
     B --> C[DNS resolves to 8.8.8.8 (A record)]
