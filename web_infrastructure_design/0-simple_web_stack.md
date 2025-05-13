@@ -1,3 +1,5 @@
+# 0-simple_web_stack
+
 ## Description
 This diagram represents a simple LAMP-style web infrastructure hosted on a single server, reachable via www.foobar.com.
 
