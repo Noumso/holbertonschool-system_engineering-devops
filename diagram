@@ -1,0 +1,13 @@
+[User's Browser]
+       |
+       V
+ DNS Request (www.foobar.com) --> DNS resolves to 8.8.8.8 (A record)
+       |
+       V
+    [8.8.8.8 - Server]
+         |
+  ---------------------------
+  |         |              |
+[Nginx] --> [App Server] --> [MySQL DB]
+  |           |
+ HTML       Code executes logic
